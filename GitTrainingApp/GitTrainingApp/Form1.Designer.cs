@@ -37,7 +37,7 @@
             // btnClose
             // 
             this.btnClose.Location = new System.Drawing.Point(225, 53);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(100, 28);
             this.btnClose.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             this.chbxClickMe.AutoSize = true;
             this.chbxClickMe.Location = new System.Drawing.Point(192, 181);
-            this.chbxClickMe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chbxClickMe.Margin = new System.Windows.Forms.Padding(4);
             this.chbxClickMe.Name = "chbxClickMe";
             this.chbxClickMe.Size = new System.Drawing.Size(92, 21);
             this.chbxClickMe.TabIndex = 1;
@@ -71,9 +71,9 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(734, 119);
+            this.listBox1.Location = new System.Drawing.Point(819, 119);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(259, 372);
+            this.listBox1.Size = new System.Drawing.Size(174, 100);
             this.listBox1.TabIndex = 3;
             // 
             // Form1
@@ -85,7 +85,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.chbxClickMe);
             this.Controls.Add(this.btnClose);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
