@@ -33,6 +33,7 @@
             this.labClientName = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.btnNewClient = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // btnClose
@@ -83,11 +84,20 @@
             this.btnNewClient.Text = "button1";
             this.btnNewClient.UseVisualStyleBackColor = true;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(368, 182);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnNewClient);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.labClientName);
@@ -107,6 +117,7 @@
         private System.Windows.Forms.Label labClientName;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button btnNewClient;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
