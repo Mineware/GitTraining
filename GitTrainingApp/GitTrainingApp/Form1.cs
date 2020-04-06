@@ -19,12 +19,17 @@ namespace GitTrainingApp
 
 		private void btnClose_Click(object sender, EventArgs e)
 		{
-			this.Close();
+			Close();
 		}
 
 		private void chbxClickMe_CheckedChanged(object sender, EventArgs e)
 		{
-			MessageBox.Show("Thank you for checking me up!!!");
+			MessageBox.Show(Resource1.ThankYou);
+		}
+
+		private void ShowCode()
+		{
+			MessageBox.Show(Resource1.ThankYou);
 		}
 	}
 }
